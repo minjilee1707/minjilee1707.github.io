@@ -1,0 +1,1723 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/home/minjilee1707/repos/minjilee1707.github.io/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "componentPath": "/home/minjilee1707/repos/minjilee1707.github.io/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "625cbe8028be987799787e17aa660bcd",
+        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
+      "resolve": "/home/minjilee1707/repos/minjilee1707.github.io/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/minjilee1707/repos/minjilee1707.github.io/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a559b6888a0e3f2879db5901411cb428",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1fc32581-893a-55e8-8927-bcd667e2b700": {
+      "resolve": "/home/minjilee1707/repos/minjilee1707.github.io/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
+      "name": "load-babel-config",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/minjilee1707/repos/minjilee1707.github.io/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "packageJson": {
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "c164b425c90f6e1a6e7d96eed1ac3004",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
+      "resolve": "/home/minjilee1707/repos/minjilee1707.github.io/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/minjilee1707/repos/minjilee1707.github.io/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "abf37b8c2258a76f2d0b09dcd692d2f6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
+      "resolve": "/home/minjilee1707/repos/minjilee1707.github.io/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/minjilee1707/repos/minjilee1707.github.io/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "76c15ebdca93ebbc21b42c46320f103d",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84dad27f-1d44-51fc-ac56-4db2e5222995": {
+      "resolve": "/home/minjilee1707/repos/minjilee1707.github.io/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/minjilee1707/repos/minjilee1707.github.io/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "4ceb3fa0e10d7e08e45af5b521c4b2e2",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
+      "resolve": "/home/minjilee1707/repos/minjilee1707.github.io/node_modules/gatsby-plugin-react-helmet",
+      "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "3.0.2",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/home/minjilee1707/repos/minjilee1707.github.io/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "3.0.2",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "matthews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "react-helmet",
+            "version": ">=5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "e9d05858708e87fcc5fceccce91a5ef7",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "176dadcc-aa26-5c02-a651-88867760143b": {
+      "resolve": "/home/minjilee1707/repos/minjilee1707.github.io/node_modules/gatsby-plugin-styled-components",
+      "id": "176dadcc-aa26-5c02-a651-88867760143b",
+      "name": "gatsby-plugin-styled-components",
+      "version": "3.0.1",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateBabelConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "wrapRootElement",
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/home/minjilee1707/repos/minjilee1707.github.io/node_modules/gatsby-plugin-styled-components",
+      "packageJson": {
+        "name": "gatsby-plugin-styled-components",
+        "description": "Gatsby plugin to add support for styled components",
+        "version": "3.0.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "styled-components"
+        ],
+        "author": {
+          "name": "Guten Ye",
+          "email": "ywzhaifei@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "babel-plugin-styled-components",
+            "version": ">1.5.0"
+          },
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "styled-components",
+            "version": ">= 2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a7cd0cbd5fc7c23a1d3cc427c5a4d35a",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "13d5519f-b712-5c6a-83fd-ad6643d898f3": {
+      "resolve": "/home/minjilee1707/repos/minjilee1707.github.io/node_modules/gatsby-source-filesystem",
+      "id": "13d5519f-b712-5c6a-83fd-ad6643d898f3",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.8",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "images",
+        "path": "/home/minjilee1707/repos/minjilee1707.github.io/src/images"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/minjilee1707/repos/minjilee1707.github.io/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.8",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "5f3daacaee81e016989845575b496663",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9": {
+      "resolve": "/home/minjilee1707/repos/minjilee1707.github.io/node_modules/gatsby-transformer-sharp",
+      "id": "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9",
+      "name": "gatsby-transformer-sharp",
+      "version": "2.1.8",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/minjilee1707/repos/minjilee1707.github.io/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "2.1.8",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.33"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "556b5fabcefd095942a3ba013073275c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84d6154d-4241-556c-a679-cc8339cac100": {
+      "resolve": "/home/minjilee1707/repos/minjilee1707.github.io/node_modules/gatsby-plugin-sharp",
+      "id": "84d6154d-4241-556c-a679-cc8339cac100",
+      "name": "gatsby-plugin-sharp",
+      "version": "2.0.12",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/minjilee1707/repos/minjilee1707.github.io/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "2.0.12",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-mozjpeg",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^4.1.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.0"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "20e497849a447f1d065685a7f4aaafbd",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "53511c7d-b617-56ee-ab34-34ce108f5dba": {
+      "resolve": "/home/minjilee1707/repos/minjilee1707.github.io/node_modules/gatsby-plugin-manifest",
+      "id": "53511c7d-b617-56ee-ab34-34ce108f5dba",
+      "name": "gatsby-plugin-manifest",
+      "version": "2.0.9",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "gatsby-starter-default",
+        "short_name": "starter",
+        "start_url": "/",
+        "background_color": "#f6f1ed",
+        "theme_color": "#f6f1ed",
+        "display": "minimal-ui",
+        "icon": "src/images/favicon.png"
+      },
+      "nodeAPIs": [
+        "onPostBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/home/minjilee1707/repos/minjilee1707.github.io/node_modules/gatsby-plugin-manifest",
+      "packageJson": {
+        "name": "gatsby-plugin-manifest",
+        "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
+        "version": "2.0.9",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "icons",
+          "manifest.webmanifest",
+          "progressive-web-app",
+          "pwa"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "36021e81566708136c605a3e643efef1",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
+      "resolve": "/home/minjilee1707/repos/minjilee1707.github.io",
+      "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "name": "default-site-plugin",
+      "version": "45a4eeb56033b22b03a309fb5b50d618",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/minjilee1707/repos/minjilee1707.github.io",
+      "packageJson": {
+        "name": "portfolio-website-gatsby",
+        "description": "Portfolio website built in Gatsby",
+        "version": "1.0.0",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Milos Lekovic <milos085@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-plugin-styled-components",
+            "version": "^1.8.0"
+          },
+          {
+            "name": "gatsby",
+            "version": "^2.0.40"
+          },
+          {
+            "name": "gatsby-image",
+            "version": "^2.0.20"
+          },
+          {
+            "name": "gatsby-plugin-manifest",
+            "version": "^2.0.7"
+          },
+          {
+            "name": "gatsby-plugin-offline",
+            "version": "^2.0.12"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^3.0.1"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.12"
+          },
+          {
+            "name": "gatsby-plugin-styled-components",
+            "version": "^3.0.1"
+          },
+          {
+            "name": "gatsby-react-router-scroll",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^2.0.7"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^2.1.8"
+          },
+          {
+            "name": "husky",
+            "version": "^1.1.4"
+          },
+          {
+            "name": "polished",
+            "version": "^2.3.0"
+          },
+          {
+            "name": "pretty-quick",
+            "version": "^1.8.0"
+          },
+          {
+            "name": "react",
+            "version": "^16.6.1"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.6.1"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "styled-components",
+            "version": "^4.0.3"
+          },
+          {
+            "name": "styled-props",
+            "version": "^1.1.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "prettier",
+            "version": "^1.15.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "ec2f5dfff79c9812bd3160d8382bd942",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "f7168449-89de-5e5e-af9b-0394dcec26fe": {
+      "resolve": "/home/minjilee1707/repos/minjilee1707.github.io/node_modules/gatsby-plugin-page-creator",
+      "id": "f7168449-89de-5e5e-af9b-0394dcec26fe",
+      "name": "gatsby-plugin-page-creator",
+      "version": "2.0.4",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/home/minjilee1707/repos/minjilee1707.github.io/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/minjilee1707/repos/minjilee1707.github.io/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "2.0.4",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "micromatch",
+            "version": "^3.1.10"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "aba4292ff61c197e579e137fff7b2772",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Name Surname - Portfolio"
+      },
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2020-07-05T16:26:53.384Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "bd6ea96bf201e5a703079d757d3e43f4",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "7b27a0fe-10ad-58fb-8a8b-f3ea946ff0d0": {
+      "id": "7b27a0fe-10ad-58fb-8a8b-f3ea946ff0d0",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "6b770f1039adc4d24d5275549dd088a3",
+        "type": "Directory",
+        "description": "Directory \"src/images\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/home/minjilee1707/repos/minjilee1707.github.io/src/images",
+      "relativePath": "",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2020-07-05T16:26:34.276Z",
+      "accessTime": "2020-07-05T16:26:36.964Z",
+      "changeTime": "2020-07-05T16:26:34.276Z",
+      "birthTime": "2020-07-05T15:48:00.978Z",
+      "root": "/",
+      "dir": "/home/minjilee1707/repos/minjilee1707.github.io/src",
+      "base": "images",
+      "ext": "",
+      "name": "images",
+      "relativeDirectory": "..",
+      "dev": 2050,
+      "mode": 16893,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 25956008,
+      "blocks": 8,
+      "atimeMs": 1593966396963.8674,
+      "mtimeMs": 1593966394275.8972,
+      "ctimeMs": 1593966394275.8972,
+      "birthtimeMs": 1593964080977.9722,
+      "atime": "2020-07-05T16:26:36.964Z",
+      "mtime": "2020-07-05T16:26:34.276Z",
+      "ctime": "2020-07-05T16:26:34.276Z",
+      "birthtime": "2020-07-05T15:48:00.978Z"
+    },
+    "bdb189f2-98b2-5cb6-8cf2-59490323002b": {
+      "id": "bdb189f2-98b2-5cb6-8cf2-59490323002b",
+      "children": [
+        "017a1ec7-5b54-5f0f-b0bb-a87307b28b91"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "b2d5c895393d5973ac8bdb30b35a47c4",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/avatar.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/home/minjilee1707/repos/minjilee1707.github.io/src/images/avatar.jpg",
+      "relativePath": "avatar.jpg",
+      "extension": "jpg",
+      "size": 33649,
+      "prettySize": "33.6 kB",
+      "modifiedTime": "2020-07-05T15:48:00.978Z",
+      "accessTime": "2020-07-05T15:48:00.978Z",
+      "changeTime": "2020-07-05T15:48:00.978Z",
+      "birthTime": "2020-07-05T15:48:00.978Z",
+      "root": "/",
+      "dir": "/home/minjilee1707/repos/minjilee1707.github.io/src/images",
+      "base": "avatar.jpg",
+      "ext": ".jpg",
+      "name": "avatar",
+      "relativeDirectory": "",
+      "dev": 2050,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 25956009,
+      "blocks": 72,
+      "atimeMs": 1593964080977.9722,
+      "mtimeMs": 1593964080977.9722,
+      "ctimeMs": 1593964080977.9722,
+      "birthtimeMs": 1593964080977.9722,
+      "atime": "2020-07-05T15:48:00.978Z",
+      "mtime": "2020-07-05T15:48:00.978Z",
+      "ctime": "2020-07-05T15:48:00.978Z",
+      "birthtime": "2020-07-05T15:48:00.978Z"
+    },
+    "049e9094-0f2a-53e0-b6c6-d362428dbd53": {
+      "id": "049e9094-0f2a-53e0-b6c6-d362428dbd53",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "24b68de7efad20bb186dc798b7ab9ab1",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/burger.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/home/minjilee1707/repos/minjilee1707.github.io/src/images/burger.svg",
+      "relativePath": "burger.svg",
+      "extension": "svg",
+      "size": 1023,
+      "prettySize": "1.02 kB",
+      "modifiedTime": "2020-07-05T15:48:00.978Z",
+      "accessTime": "2020-07-05T15:48:00.978Z",
+      "changeTime": "2020-07-05T15:48:00.978Z",
+      "birthTime": "2020-07-05T15:48:00.978Z",
+      "root": "/",
+      "dir": "/home/minjilee1707/repos/minjilee1707.github.io/src/images",
+      "base": "burger.svg",
+      "ext": ".svg",
+      "name": "burger",
+      "relativeDirectory": "",
+      "dev": 2050,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 25956010,
+      "blocks": 8,
+      "atimeMs": 1593964080977.9722,
+      "mtimeMs": 1593964080977.9722,
+      "ctimeMs": 1593964080977.9722,
+      "birthtimeMs": 1593964080977.9722,
+      "atime": "2020-07-05T15:48:00.978Z",
+      "mtime": "2020-07-05T15:48:00.978Z",
+      "ctime": "2020-07-05T15:48:00.978Z",
+      "birthtime": "2020-07-05T15:48:00.978Z"
+    },
+    "9a09aaa0-35f5-5931-b4c7-0b09912ec089": {
+      "id": "9a09aaa0-35f5-5931-b4c7-0b09912ec089",
+      "children": [
+        "3e58aa8c-686e-52ec-a4e5-a0376a2c319e"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "353e08f13be88abf191ccf8fc7abe86c",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/close-popup-grey.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/home/minjilee1707/repos/minjilee1707.github.io/src/images/close-popup-grey.png",
+      "relativePath": "close-popup-grey.png",
+      "extension": "png",
+      "size": 259,
+      "prettySize": "259 B",
+      "modifiedTime": "2020-07-05T15:48:00.978Z",
+      "accessTime": "2020-07-05T15:48:00.978Z",
+      "changeTime": "2020-07-05T15:48:00.978Z",
+      "birthTime": "2020-07-05T15:48:00.978Z",
+      "root": "/",
+      "dir": "/home/minjilee1707/repos/minjilee1707.github.io/src/images",
+      "base": "close-popup-grey.png",
+      "ext": ".png",
+      "name": "close-popup-grey",
+      "relativeDirectory": "",
+      "dev": 2050,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 25956011,
+      "blocks": 8,
+      "atimeMs": 1593964080977.9722,
+      "mtimeMs": 1593964080977.9722,
+      "ctimeMs": 1593964080977.9722,
+      "birthtimeMs": 1593964080977.9722,
+      "atime": "2020-07-05T15:48:00.978Z",
+      "mtime": "2020-07-05T15:48:00.978Z",
+      "ctime": "2020-07-05T15:48:00.978Z",
+      "birthtime": "2020-07-05T15:48:00.978Z"
+    },
+    "ff373e80-99df-5837-96b1-de7e284f3ed9": {
+      "id": "ff373e80-99df-5837-96b1-de7e284f3ed9",
+      "children": [
+        "551e05a5-fd6c-51ab-90cc-06652bc4fdc6"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "3f19c8c7485eb01b9f40c3a0a4bd3f80",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/close-popup.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/home/minjilee1707/repos/minjilee1707.github.io/src/images/close-popup.png",
+      "relativePath": "close-popup.png",
+      "extension": "png",
+      "size": 2417,
+      "prettySize": "2.42 kB",
+      "modifiedTime": "2020-07-05T15:48:00.978Z",
+      "accessTime": "2020-07-05T15:48:00.978Z",
+      "changeTime": "2020-07-05T15:48:00.978Z",
+      "birthTime": "2020-07-05T15:48:00.978Z",
+      "root": "/",
+      "dir": "/home/minjilee1707/repos/minjilee1707.github.io/src/images",
+      "base": "close-popup.png",
+      "ext": ".png",
+      "name": "close-popup",
+      "relativeDirectory": "",
+      "dev": 2050,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 25956012,
+      "blocks": 8,
+      "atimeMs": 1593964080977.9722,
+      "mtimeMs": 1593964080977.9722,
+      "ctimeMs": 1593964080977.9722,
+      "birthtimeMs": 1593964080977.9722,
+      "atime": "2020-07-05T15:48:00.978Z",
+      "mtime": "2020-07-05T15:48:00.978Z",
+      "ctime": "2020-07-05T15:48:00.978Z",
+      "birthtime": "2020-07-05T15:48:00.978Z"
+    },
+    "b1db6a74-1b58-54b4-ba40-2b92b51311cb": {
+      "id": "b1db6a74-1b58-54b4-ba40-2b92b51311cb",
+      "children": [
+        "46703e15-885b-553c-9346-cefb429697b3"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "7a3fead7684c2eb047cbd6beb9779eea",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/ln.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/home/minjilee1707/repos/minjilee1707.github.io/src/images/ln.png",
+      "relativePath": "ln.png",
+      "extension": "png",
+      "size": 2833,
+      "prettySize": "2.83 kB",
+      "modifiedTime": "2020-07-05T15:48:00.978Z",
+      "accessTime": "2020-07-05T15:48:00.978Z",
+      "changeTime": "2020-07-05T15:48:00.978Z",
+      "birthTime": "2020-07-05T15:48:00.978Z",
+      "root": "/",
+      "dir": "/home/minjilee1707/repos/minjilee1707.github.io/src/images",
+      "base": "ln.png",
+      "ext": ".png",
+      "name": "ln",
+      "relativeDirectory": "",
+      "dev": 2050,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 25956015,
+      "blocks": 8,
+      "atimeMs": 1593964080977.9722,
+      "mtimeMs": 1593964080977.9722,
+      "ctimeMs": 1593964080977.9722,
+      "birthtimeMs": 1593964080977.9722,
+      "atime": "2020-07-05T15:48:00.978Z",
+      "mtime": "2020-07-05T15:48:00.978Z",
+      "ctime": "2020-07-05T15:48:00.978Z",
+      "birthtime": "2020-07-05T15:48:00.978Z"
+    },
+    "017a1ec7-5b54-5f0f-b0bb-a87307b28b91": {
+      "id": "017a1ec7-5b54-5f0f-b0bb-a87307b28b91",
+      "children": [],
+      "parent": "bdb189f2-98b2-5cb6-8cf2-59490323002b",
+      "internal": {
+        "contentDigest": "b2d5c895393d5973ac8bdb30b35a47c4",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "3e58aa8c-686e-52ec-a4e5-a0376a2c319e": {
+      "id": "3e58aa8c-686e-52ec-a4e5-a0376a2c319e",
+      "children": [],
+      "parent": "9a09aaa0-35f5-5931-b4c7-0b09912ec089",
+      "internal": {
+        "contentDigest": "353e08f13be88abf191ccf8fc7abe86c",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "551e05a5-fd6c-51ab-90cc-06652bc4fdc6": {
+      "id": "551e05a5-fd6c-51ab-90cc-06652bc4fdc6",
+      "children": [],
+      "parent": "ff373e80-99df-5837-96b1-de7e284f3ed9",
+      "internal": {
+        "contentDigest": "3f19c8c7485eb01b9f40c3a0a4bd3f80",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "46703e15-885b-553c-9346-cefb429697b3": {
+      "id": "46703e15-885b-553c-9346-cefb429697b3",
+      "children": [],
+      "parent": "b1db6a74-1b58-54b4-ba40-2b92b51311cb",
+      "internal": {
+        "contentDigest": "7a3fead7684c2eb047cbd6beb9779eea",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "fcd1be00-befa-5878-953b-8c42068fa6a7": {
+      "id": "fcd1be00-befa-5878-953b-8c42068fa6a7",
+      "children": [
+        "ebfd4f5a-1b35-566f-84fe-50dcefa115f0"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "c729fd7fab40e78c3080a4da07ec4b7d",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/placeholder.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/home/minjilee1707/repos/minjilee1707.github.io/src/images/placeholder.png",
+      "relativePath": "placeholder.png",
+      "extension": "png",
+      "size": 1959,
+      "prettySize": "1.96 kB",
+      "modifiedTime": "2020-07-05T15:48:00.978Z",
+      "accessTime": "2020-07-05T15:48:00.978Z",
+      "changeTime": "2020-07-05T15:48:00.978Z",
+      "birthTime": "2020-07-05T15:48:00.978Z",
+      "root": "/",
+      "dir": "/home/minjilee1707/repos/minjilee1707.github.io/src/images",
+      "base": "placeholder.png",
+      "ext": ".png",
+      "name": "placeholder",
+      "relativeDirectory": "",
+      "dev": 2050,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 25956016,
+      "blocks": 8,
+      "atimeMs": 1593964080977.9722,
+      "mtimeMs": 1593964080977.9722,
+      "ctimeMs": 1593964080977.9722,
+      "birthtimeMs": 1593964080977.9722,
+      "atime": "2020-07-05T15:48:00.978Z",
+      "mtime": "2020-07-05T15:48:00.978Z",
+      "ctime": "2020-07-05T15:48:00.978Z",
+      "birthtime": "2020-07-05T15:48:00.978Z"
+    },
+    "78e46063-b61d-563c-acf1-2e676e4effa8": {
+      "id": "78e46063-b61d-563c-acf1-2e676e4effa8",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "f4dcd496a84a2600a46c3e83681068c5",
+        "type": "File",
+        "mediaType": "image/x-icon",
+        "description": "File \"src/images/favicon.ico\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/home/minjilee1707/repos/minjilee1707.github.io/src/images/favicon.ico",
+      "relativePath": "favicon.ico",
+      "extension": "ico",
+      "size": 70262,
+      "prettySize": "70.3 kB",
+      "modifiedTime": "2020-07-05T16:25:12.909Z",
+      "accessTime": "2020-07-05T16:25:16.849Z",
+      "changeTime": "2020-07-05T16:26:34.276Z",
+      "birthTime": "2020-07-05T16:25:12.533Z",
+      "root": "/",
+      "dir": "/home/minjilee1707/repos/minjilee1707.github.io/src/images",
+      "base": "favicon.ico",
+      "ext": ".ico",
+      "name": "favicon",
+      "relativeDirectory": "",
+      "dev": 2050,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 18481238,
+      "blocks": 144,
+      "atimeMs": 1593966316848.7546,
+      "mtimeMs": 1593966312908.7983,
+      "ctimeMs": 1593966394275.8972,
+      "birthtimeMs": 1593966312532.8025,
+      "atime": "2020-07-05T16:25:16.849Z",
+      "mtime": "2020-07-05T16:25:12.909Z",
+      "ctime": "2020-07-05T16:26:34.276Z",
+      "birthtime": "2020-07-05T16:25:12.533Z"
+    },
+    "ebfd4f5a-1b35-566f-84fe-50dcefa115f0": {
+      "id": "ebfd4f5a-1b35-566f-84fe-50dcefa115f0",
+      "children": [],
+      "parent": "fcd1be00-befa-5878-953b-8c42068fa6a7",
+      "internal": {
+        "contentDigest": "c729fd7fab40e78c3080a4da07ec4b7d",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "11435049-17c9-52dc-8248-f1034e4f7a79": {
+      "id": "11435049-17c9-52dc-8248-f1034e4f7a79",
+      "children": [
+        "e396c49e-44a9-5aaf-ad9d-bf3e78403f97"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "e08ebd581e931fabece0dad6a6df9b4a",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/favicon.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/home/minjilee1707/repos/minjilee1707.github.io/src/images/favicon.png",
+      "relativePath": "favicon.png",
+      "extension": "png",
+      "size": 193109,
+      "prettySize": "193 kB",
+      "modifiedTime": "2020-07-05T15:48:00.978Z",
+      "accessTime": "2020-07-05T15:48:00.978Z",
+      "changeTime": "2020-07-05T15:48:00.978Z",
+      "birthTime": "2020-07-05T15:48:00.978Z",
+      "root": "/",
+      "dir": "/home/minjilee1707/repos/minjilee1707.github.io/src/images",
+      "base": "favicon.png",
+      "ext": ".png",
+      "name": "favicon",
+      "relativeDirectory": "",
+      "dev": 2050,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 25956014,
+      "blocks": 384,
+      "atimeMs": 1593964080977.9722,
+      "mtimeMs": 1593964080977.9722,
+      "ctimeMs": 1593964080977.9722,
+      "birthtimeMs": 1593964080977.9722,
+      "atime": "2020-07-05T15:48:00.978Z",
+      "mtime": "2020-07-05T15:48:00.978Z",
+      "ctime": "2020-07-05T15:48:00.978Z",
+      "birthtime": "2020-07-05T15:48:00.978Z"
+    },
+    "e396c49e-44a9-5aaf-ad9d-bf3e78403f97": {
+      "id": "e396c49e-44a9-5aaf-ad9d-bf3e78403f97",
+      "children": [],
+      "parent": "11435049-17c9-52dc-8248-f1034e4f7a79",
+      "internal": {
+        "contentDigest": "e08ebd581e931fabece0dad6a6df9b4a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "4476657e-b4c4-5de4-96a7-927cced6bae0": {
+      "id": "4476657e-b4c4-5de4-96a7-927cced6bae0",
+      "children": [
+        "0b943622-6c47-5e27-8836-cbebb940722a"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "835f83e419f9327b569cc40e797472ef",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/minji.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/home/minjilee1707/repos/minjilee1707.github.io/src/images/minji.png",
+      "relativePath": "minji.png",
+      "extension": "png",
+      "size": 833810,
+      "prettySize": "834 kB",
+      "modifiedTime": "2020-07-05T15:59:53.366Z",
+      "accessTime": "2020-07-05T16:00:19.094Z",
+      "changeTime": "2020-07-05T15:59:53.366Z",
+      "birthTime": "2020-07-05T15:59:53.366Z",
+      "root": "/",
+      "dir": "/home/minjilee1707/repos/minjilee1707.github.io/src/images",
+      "base": "minji.png",
+      "ext": ".png",
+      "name": "minji",
+      "relativeDirectory": "",
+      "dev": 2050,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 25952310,
+      "blocks": 1632,
+      "atimeMs": 1593964819093.5413,
+      "mtimeMs": 1593964793365.8342,
+      "ctimeMs": 1593964793365.8342,
+      "birthtimeMs": 1593964793365.8342,
+      "atime": "2020-07-05T16:00:19.094Z",
+      "mtime": "2020-07-05T15:59:53.366Z",
+      "ctime": "2020-07-05T15:59:53.366Z",
+      "birthtime": "2020-07-05T15:59:53.366Z"
+    },
+    "0b943622-6c47-5e27-8836-cbebb940722a": {
+      "id": "0b943622-6c47-5e27-8836-cbebb940722a",
+      "children": [],
+      "parent": "4476657e-b4c4-5de4-96a7-927cced6bae0",
+      "internal": {
+        "contentDigest": "835f83e419f9327b569cc40e797472ef",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "SitePage /404/": {
+      "jsonName": "404-22d",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/home/minjilee1707/repos/minjilee1707.github.io/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "f7168449-89de-5e5e-af9b-0394dcec26fe",
+      "pluginCreatorId": "f7168449-89de-5e5e-af9b-0394dcec26fe",
+      "componentPath": "/home/minjilee1707/repos/minjilee1707.github.io/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "57c79be27c954e8ddaf0ab6865239ab2",
+        "description": "f7168449-89de-5e5e-af9b-0394dcec26fe",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /about-me/": {
+      "jsonName": "about-me-a3a",
+      "internalComponentName": "ComponentAboutMe",
+      "path": "/about-me/",
+      "component": "/home/minjilee1707/repos/minjilee1707.github.io/src/pages/about-me.js",
+      "componentChunkName": "component---src-pages-about-me-js",
+      "context": {},
+      "pluginCreator___NODE": "f7168449-89de-5e5e-af9b-0394dcec26fe",
+      "pluginCreatorId": "f7168449-89de-5e5e-af9b-0394dcec26fe",
+      "componentPath": "/home/minjilee1707/repos/minjilee1707.github.io/src/pages/about-me.js",
+      "id": "SitePage /about-me/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "22672013d0b013fb27ae2f51498ce46e",
+        "description": "f7168449-89de-5e5e-af9b-0394dcec26fe",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/home/minjilee1707/repos/minjilee1707.github.io/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "f7168449-89de-5e5e-af9b-0394dcec26fe",
+      "pluginCreatorId": "f7168449-89de-5e5e-af9b-0394dcec26fe",
+      "componentPath": "/home/minjilee1707/repos/minjilee1707.github.io/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "b0ba9c9476ecda2c50f250a0a6641387",
+        "description": "f7168449-89de-5e5e-af9b-0394dcec26fe",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "jsonName": "404-html-516",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/home/minjilee1707/repos/minjilee1707.github.io/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "componentPath": "/home/minjilee1707/repos/minjilee1707.github.io/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "589274f0f672b20305c23bc1e1bd1198",
+        "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "b690007d03055e2a0e0010f4b296db3f"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "Site": [
+        "sq--src-components-layout-js"
+      ],
+      "bdb189f2-98b2-5cb6-8cf2-59490323002b": [
+        "/about-me/",
+        "sq--src-components-image-js"
+      ],
+      "017a1ec7-5b54-5f0f-b0bb-a87307b28b91": [
+        "/about-me/",
+        "sq--src-components-image-js"
+      ],
+      "4476657e-b4c4-5de4-96a7-927cced6bae0": [
+        "/"
+      ],
+      "0b943622-6c47-5e27-8836-cbebb940722a": [
+        "/"
+      ]
+    },
+    "connections": {}
+  },
+  "jsonDataPaths": {
+    "sq--src-components-layout-js": 755544856,
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
+    "about-me-a3a": "599/path---about-me-a-3-a-888-zjcQrSgW9TvFiWHxpAh0NRl0",
+    "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
+    "sq--src-components-image-js": 380872815,
+    "index": "66/path---index-6a9-VZScWJnJHkFyNpOJqqQeumOqo"
+  },
+  "components": {
+    "/home/minjilee1707/repos/minjilee1707.github.io/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/home/minjilee1707/repos/minjilee1707.github.io/.cache/dev-404-page.js"
+    },
+    "/home/minjilee1707/repos/minjilee1707.github.io/src/pages/404.js": {
+      "query": "",
+      "componentPath": "/home/minjilee1707/repos/minjilee1707.github.io/src/pages/404.js"
+    },
+    "/home/minjilee1707/repos/minjilee1707.github.io/src/pages/about-me.js": {
+      "query": "query homeMinjilee1707ReposMinjilee1707GithubIoSrcPagesAboutMeJs1481945409 {\n  avatarAbout: file(relativePath: {eq: \"avatar.jpg\"}) {\n    ...fluidImage\n  }\n}\n\nfragment fluidImage on File {\n  childImageSharp {\n    fluid(maxWidth: 1600) {\n      ...GatsbyImageSharpFluid\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "componentPath": "/home/minjilee1707/repos/minjilee1707.github.io/src/pages/about-me.js"
+    },
+    "/home/minjilee1707/repos/minjilee1707.github.io/src/pages/index.js": {
+      "query": "query homeMinjilee1707ReposMinjilee1707GithubIoSrcPagesIndexJs1234776093 {\n  avatarHomepage: file(relativePath: {eq: \"minji.png\"}) {\n    ...fluidImage\n  }\n}\n\nfragment fluidImage on File {\n  childImageSharp {\n    fluid(maxWidth: 1600) {\n      ...GatsbyImageSharpFluid\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "componentPath": "/home/minjilee1707/repos/minjilee1707.github.io/src/pages/index.js"
+    }
+  },
+  "staticQueryComponents": {
+    "sq--src-components-image-js": {
+      "name": "homeMinjilee1707ReposMinjilee1707GithubIoSrcComponentsImageJs380872815",
+      "componentPath": "/home/minjilee1707/repos/minjilee1707.github.io/src/components/Image.js",
+      "id": "sq--src-components-image-js",
+      "jsonName": "sq--src-components-image-js",
+      "query": "query homeMinjilee1707ReposMinjilee1707GithubIoSrcComponentsImageJs380872815 {\n  placeholderImage: file(relativePath: {regex: \"*.png/\"}) {\n    childImageSharp {\n      fluid(maxWidth: 1600) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "hash": 380872815
+    },
+    "sq--src-components-layout-js": {
+      "name": "SiteTitleQuery",
+      "componentPath": "/home/minjilee1707/repos/minjilee1707.github.io/src/components/Layout.js",
+      "id": "sq--src-components-layout-js",
+      "jsonName": "sq--src-components-layout-js",
+      "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
+      "hash": 755544856
+    }
+  }
+}
