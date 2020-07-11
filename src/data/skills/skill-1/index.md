@@ -1,5 +1,5 @@
 ---
 category: 'skills'
-title: 'HTML'
-percentage: 60
+title: 'AWS'
+percentage: 70
 ---

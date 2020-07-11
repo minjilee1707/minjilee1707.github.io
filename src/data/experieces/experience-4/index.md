@@ -1,9 +1,12 @@
 ---
 category: 'experiences'
-company: 'Netlify'
-position: 'Senior Frontend Developer'
-startDate: 'Jun 2015'
-endDate: 'Jan 2018'
+company: 'Macquarie'
+position: 'Infrastructure developer'
+startDate: 'April 2019'
+endDate: 'Present'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Full stack web development of vulnerability management portal using golang, HTMl and Javascript.</br>
+Used .NET framework and c# to develop a plugin application in Outlook </br>
+Proficient in AWS deployments. 
+

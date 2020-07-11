@@ -1,9 +1,12 @@
 ---
 category: 'experiences'
-company: 'Facebook'
-position: 'Frontend Developer'
-startDate: 'May 2013'
-endDate: 'Jun 2015'
+company: 'Innovation Technology and Energy Center'
+position: 'Research volunteer'
+startDate: 'July 2018'
+endDate: 'Sept 2018'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Research the development of ozone crop storage units. </br>
+Anaylse survey data collected from villages with solar panel installations. 
+
+

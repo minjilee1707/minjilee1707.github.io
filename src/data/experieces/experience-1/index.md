@@ -1,9 +1,9 @@
 ---
 category: 'experiences'
-company: 'Forge Inc'
-position: 'UI/UX Designer'
-startDate: 'Mar 2010'
-endDate: 'Dec 2010'
+company: 'Kumon Uk'
+position: 'Maths Tutor'
+startDate: 'April 2012'
+endDate: 'July 2013'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Taugh Mathematics to student of ages up to 16 years.

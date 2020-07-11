@@ -1,11 +1,10 @@
 ---
 category: 'experiences'
-company: 'Aizoon Reply'
-position: 'UI/UX Designer'
-startDate: 'Jan 2011'
-endDate: 'May 2013'
+company: 'AqVida GmbH'
+position: 'Intern'
+startDate: 'July 2016'
+endDate: 'Sept 2016'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Data organisation for product master files with the use of SAP software and DocuBridge.<br/>
+Responsible for executing installation and operational qualifications on equipment. 
