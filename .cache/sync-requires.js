@@ -7,10 +7,8 @@ const preferDefault = m => m && m.default || m
 exports.components = {
   "component---cache-dev-404-page-js": hot(preferDefault(require("/home/minjilee1707/repos/minjilee1707.github.io/.cache/dev-404-page.js"))),
   "component---src-pages-404-tsx": hot(preferDefault(require("/home/minjilee1707/repos/minjilee1707.github.io/src/pages/404.tsx"))),
-  "component---src-pages-blog-tsx": hot(preferDefault(require("/home/minjilee1707/repos/minjilee1707.github.io/src/pages/blog.tsx"))),
   "component---src-pages-contact-tsx": hot(preferDefault(require("/home/minjilee1707/repos/minjilee1707.github.io/src/pages/contact.tsx"))),
   "component---src-pages-index-tsx": hot(preferDefault(require("/home/minjilee1707/repos/minjilee1707.github.io/src/pages/index.tsx"))),
-  "component---src-pages-resume-tsx": hot(preferDefault(require("/home/minjilee1707/repos/minjilee1707.github.io/src/pages/resume.tsx"))),
-  "component---src-templates-blog-post-index-js": hot(preferDefault(require("/home/minjilee1707/repos/minjilee1707.github.io/src/templates/BlogPost/index.js")))
+  "component---src-pages-resume-tsx": hot(preferDefault(require("/home/minjilee1707/repos/minjilee1707.github.io/src/pages/resume.tsx")))
 }
 
