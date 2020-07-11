@@ -1025,12 +1025,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2020-07-05T16:26:53.384Z",
+      "buildTime": "2020-07-11T12:25:48.804Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "bd6ea96bf201e5a703079d757d3e43f4",
+        "contentDigest": "fe9acbca0c15f8acf752436e52e9814b",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1040,7 +1040,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "6b770f1039adc4d24d5275549dd088a3",
+        "contentDigest": "dc9c8598012104b40a8478674c8b7383",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1051,9 +1051,9 @@
       "extension": "",
       "size": 4096,
       "prettySize": "4.1 kB",
-      "modifiedTime": "2020-07-05T16:26:34.276Z",
-      "accessTime": "2020-07-05T16:26:36.964Z",
-      "changeTime": "2020-07-05T16:26:34.276Z",
+      "modifiedTime": "2020-07-11T12:23:50.838Z",
+      "accessTime": "2020-07-11T12:24:09.730Z",
+      "changeTime": "2020-07-11T12:23:50.838Z",
       "birthTime": "2020-07-05T15:48:00.978Z",
       "root": "/",
       "dir": "/home/minjilee1707/repos/minjilee1707.github.io/src",
@@ -1070,60 +1070,13 @@
       "blksize": 4096,
       "ino": 25956008,
       "blocks": 8,
-      "atimeMs": 1593966396963.8674,
-      "mtimeMs": 1593966394275.8972,
-      "ctimeMs": 1593966394275.8972,
+      "atimeMs": 1594470249729.8577,
+      "mtimeMs": 1594470230837.9133,
+      "ctimeMs": 1594470230837.9133,
       "birthtimeMs": 1593964080977.9722,
-      "atime": "2020-07-05T16:26:36.964Z",
-      "mtime": "2020-07-05T16:26:34.276Z",
-      "ctime": "2020-07-05T16:26:34.276Z",
-      "birthtime": "2020-07-05T15:48:00.978Z"
-    },
-    "bdb189f2-98b2-5cb6-8cf2-59490323002b": {
-      "id": "bdb189f2-98b2-5cb6-8cf2-59490323002b",
-      "children": [
-        "017a1ec7-5b54-5f0f-b0bb-a87307b28b91"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "b2d5c895393d5973ac8bdb30b35a47c4",
-        "type": "File",
-        "mediaType": "image/jpeg",
-        "description": "File \"src/images/avatar.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/home/minjilee1707/repos/minjilee1707.github.io/src/images/avatar.jpg",
-      "relativePath": "avatar.jpg",
-      "extension": "jpg",
-      "size": 33649,
-      "prettySize": "33.6 kB",
-      "modifiedTime": "2020-07-05T15:48:00.978Z",
-      "accessTime": "2020-07-05T15:48:00.978Z",
-      "changeTime": "2020-07-05T15:48:00.978Z",
-      "birthTime": "2020-07-05T15:48:00.978Z",
-      "root": "/",
-      "dir": "/home/minjilee1707/repos/minjilee1707.github.io/src/images",
-      "base": "avatar.jpg",
-      "ext": ".jpg",
-      "name": "avatar",
-      "relativeDirectory": "",
-      "dev": 2050,
-      "mode": 33204,
-      "nlink": 1,
-      "uid": 1000,
-      "gid": 1000,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 25956009,
-      "blocks": 72,
-      "atimeMs": 1593964080977.9722,
-      "mtimeMs": 1593964080977.9722,
-      "ctimeMs": 1593964080977.9722,
-      "birthtimeMs": 1593964080977.9722,
-      "atime": "2020-07-05T15:48:00.978Z",
-      "mtime": "2020-07-05T15:48:00.978Z",
-      "ctime": "2020-07-05T15:48:00.978Z",
+      "atime": "2020-07-11T12:24:09.730Z",
+      "mtime": "2020-07-11T12:23:50.838Z",
+      "ctime": "2020-07-11T12:23:50.838Z",
       "birthtime": "2020-07-05T15:48:00.978Z"
     },
     "049e9094-0f2a-53e0-b6c6-d362428dbd53": {
@@ -1312,16 +1265,6 @@
       "ctime": "2020-07-05T15:48:00.978Z",
       "birthtime": "2020-07-05T15:48:00.978Z"
     },
-    "017a1ec7-5b54-5f0f-b0bb-a87307b28b91": {
-      "id": "017a1ec7-5b54-5f0f-b0bb-a87307b28b91",
-      "children": [],
-      "parent": "bdb189f2-98b2-5cb6-8cf2-59490323002b",
-      "internal": {
-        "contentDigest": "b2d5c895393d5973ac8bdb30b35a47c4",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
     "3e58aa8c-686e-52ec-a4e5-a0376a2c319e": {
       "id": "3e58aa8c-686e-52ec-a4e5-a0376a2c319e",
       "children": [],
@@ -1461,7 +1404,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "e08ebd581e931fabece0dad6a6df9b4a",
+        "contentDigest": "835f83e419f9327b569cc40e797472ef",
         "type": "File",
         "mediaType": "image/png",
         "description": "File \"src/images/favicon.png\"",
@@ -1471,12 +1414,12 @@
       "absolutePath": "/home/minjilee1707/repos/minjilee1707.github.io/src/images/favicon.png",
       "relativePath": "favicon.png",
       "extension": "png",
-      "size": 193109,
-      "prettySize": "193 kB",
-      "modifiedTime": "2020-07-05T15:48:00.978Z",
-      "accessTime": "2020-07-05T15:48:00.978Z",
-      "changeTime": "2020-07-05T15:48:00.978Z",
-      "birthTime": "2020-07-05T15:48:00.978Z",
+      "size": 833810,
+      "prettySize": "834 kB",
+      "modifiedTime": "2020-07-05T15:59:53.366Z",
+      "accessTime": "2020-07-11T12:23:12.842Z",
+      "changeTime": "2020-07-11T12:23:48.246Z",
+      "birthTime": "2020-07-11T12:23:12.842Z",
       "root": "/",
       "dir": "/home/minjilee1707/repos/minjilee1707.github.io/src/images",
       "base": "favicon.png",
@@ -1490,26 +1433,16 @@
       "gid": 1000,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 25956014,
-      "blocks": 384,
-      "atimeMs": 1593964080977.9722,
-      "mtimeMs": 1593964080977.9722,
-      "ctimeMs": 1593964080977.9722,
-      "birthtimeMs": 1593964080977.9722,
-      "atime": "2020-07-05T15:48:00.978Z",
-      "mtime": "2020-07-05T15:48:00.978Z",
-      "ctime": "2020-07-05T15:48:00.978Z",
-      "birthtime": "2020-07-05T15:48:00.978Z"
-    },
-    "e396c49e-44a9-5aaf-ad9d-bf3e78403f97": {
-      "id": "e396c49e-44a9-5aaf-ad9d-bf3e78403f97",
-      "children": [],
-      "parent": "11435049-17c9-52dc-8248-f1034e4f7a79",
-      "internal": {
-        "contentDigest": "e08ebd581e931fabece0dad6a6df9b4a",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
+      "ino": 25956013,
+      "blocks": 1632,
+      "atimeMs": 1594470192842.043,
+      "mtimeMs": 1593964793365.834,
+      "ctimeMs": 1594470228245.9214,
+      "birthtimeMs": 1594470192842.0437,
+      "atime": "2020-07-11T12:23:12.842Z",
+      "mtime": "2020-07-05T15:59:53.366Z",
+      "ctime": "2020-07-11T12:23:48.246Z",
+      "birthtime": "2020-07-11T12:23:12.842Z"
     },
     "4476657e-b4c4-5de4-96a7-927cced6bae0": {
       "id": "4476657e-b4c4-5de4-96a7-927cced6bae0",
@@ -1562,6 +1495,16 @@
       "id": "0b943622-6c47-5e27-8836-cbebb940722a",
       "children": [],
       "parent": "4476657e-b4c4-5de4-96a7-927cced6bae0",
+      "internal": {
+        "contentDigest": "835f83e419f9327b569cc40e797472ef",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "e396c49e-44a9-5aaf-ad9d-bf3e78403f97": {
+      "id": "e396c49e-44a9-5aaf-ad9d-bf3e78403f97",
+      "children": [],
+      "parent": "11435049-17c9-52dc-8248-f1034e4f7a79",
       "internal": {
         "contentDigest": "835f83e419f9327b569cc40e797472ef",
         "type": "ImageSharp",
@@ -1659,18 +1602,19 @@
         "sq--src-components-layout-js"
       ],
       "bdb189f2-98b2-5cb6-8cf2-59490323002b": [
-        "/about-me/",
-        "sq--src-components-image-js"
+        "/about-me/"
       ],
       "017a1ec7-5b54-5f0f-b0bb-a87307b28b91": [
-        "/about-me/",
-        "sq--src-components-image-js"
+        "/about-me/"
       ],
       "4476657e-b4c4-5de4-96a7-927cced6bae0": [
         "/"
       ],
       "0b943622-6c47-5e27-8836-cbebb940722a": [
         "/"
+      ],
+      "049e9094-0f2a-53e0-b6c6-d362428dbd53": [
+        "sq--src-components-image-js"
       ]
     },
     "connections": {}
@@ -1678,7 +1622,7 @@
   "jsonDataPaths": {
     "sq--src-components-layout-js": 755544856,
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
-    "about-me-a3a": "599/path---about-me-a-3-a-888-zjcQrSgW9TvFiWHxpAh0NRl0",
+    "about-me-a3a": "281/path---about-me-a-3-a-888-A5whSpb7dBSovsadlFRn5MrAN8A",
     "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
     "sq--src-components-image-js": 380872815,

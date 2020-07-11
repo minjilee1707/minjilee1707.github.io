@@ -9,7 +9,7 @@ import { withTheme } from 'styled-components';
 import * as t from '../Typography';
 import { lighten, darken } from 'polished';
 import Helmet from 'react-helmet';
-import Avatar from '../images/avatar.jpg'
+import Avatar from '../images/minji.png'
 
 const HeaderWrapper = styled.div`
   height: auto;
