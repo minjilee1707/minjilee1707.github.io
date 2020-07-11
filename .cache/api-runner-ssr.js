@@ -2,11 +2,14 @@ var plugins = [{
       plugin: require('/home/minjilee1707/repos/minjilee1707.github.io/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/home/minjilee1707/repos/minjilee1707.github.io/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      plugin: require('/home/minjilee1707/repos/minjilee1707.github.io/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      options: {"plugins":[],"name":"gatsby-personal-website-starter","short_name":"starter","start_url":"/","background_color":"#ed64a6","theme_color":"#ed64a6","display":"minimal-ui","icon":"src/assets/images/gatsby-icon.png"},
+    },{
+      plugin: require('/home/minjilee1707/repos/minjilee1707.github.io/node_modules/gatsby-plugin-offline/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/home/minjilee1707/repos/minjilee1707.github.io/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"gatsby-starter-default","short_name":"starter","start_url":"/","background_color":"#f6f1ed","theme_color":"#f6f1ed","display":"minimal-ui","icon":"src/images/favicon.png"},
+      plugin: require('/home/minjilee1707/repos/minjilee1707.github.io/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [

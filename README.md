@@ -1,43 +1,51 @@
-<p align="center">
-  <a href="https://www.linkedin.com/in/miloslekovic/">
-    <img alt="Milos Lekovic" src="src/images/favicon.ico" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Portfolio website built in Gatsby
-</h1>
+# Gatsby Markdown Personal Website
 
-<a href="https://relaxed-bhaskara-5abd0a.netlify.com/" target="_blank">
-  Preview live version
-</a>
+This is a personal website / blog using [Gatsby](https://www.gatsbyjs.org/), [Markdown](https://www.markdownguide.org/), [Styled Components](https://styled-components.com/), [Talwind CSS](https://tailwindcss.com/), [Framer Motion](https://www.framer.com/motion/) & [React Font Awesome](https://github.com/FortAwesome/react-fontawesome).
 
-Kick off your portfolio website with this default boilerplate. This barebones starter ships with the main portfolio items you might need. 
+## Demo
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
+[Gatsby Markdown Personal Website](https://gatsby-markdown-personal-website.netlify.app/)
 
-## 🚀 Quick start
+## Quick start
 
-1.  **Install the dependencies.**
+1.  **Create a Gatsby site.**
 
-    ```sh
-    # install the dependencies
-    npm install
+    Use the Gatsby CLI to create a new site, using the Gatsby Markdown Personal Website starter.
+
+    ```shell
+    gatsby new my-site-name https://github.com/SaimirKapaj/gatsby-markdown-personal-website
     ```
 
-2.  **Build it. Open the source code and start editing!**
+2.  **Develop**
 
-    Navigate into your your portfolio's directory and start it up.
+    Navigate into your new site’s directory and start the development environment.
 
-    ```sh
+    ```shell
     gatsby develop
     ```
-    Your site is now running at `http://localhost:8000`!
 
-3.  **Deploy it.**
+    Your site is now running at `http://localhost:8000`
 
-    After applying your changes, run this command to deploy it.
+3.  **Build**
 
-    ```sh
+    Get an optimized production build for your site generating static HTML and JavaScript, CSS bundles.
+
+    ```shell
     gatsby build
+    ```
+
+4.  **Serve**
+
+    Starts a local server for testing your production site.
+
+    ```shell
     gatsby serve
     ```
+
+    Your production site is now running at `http://localhost:9000`
+
+## Deploy
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/SaimirKapaj/gatsby-markdown-personal-website)
+
+[![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/import/project?template=https://github.com/SaimirKapaj/gatsby-markdown-personal-website)
