@@ -1,9 +1,11 @@
 ---
 category: 'education'
-Secondary School: 'Coombe Girls School and Sixth Form'
-degree: 'ALevels'
+university: 'Coombe Girls School'
+degree: 'ALevels and GCSE'
 startDate: 'Sept 2009'
 endDate: 'Jul 2013'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laborist.
+A levels: Chemistry (A\*), Mathematics (A\*), Physics (A)</br>
+GCSE: 6A\*s, 4As - including Mathematics (A\*), Statistics (A\*) Chemistry (A\*), Physics (A\*), Biology (A)
+
