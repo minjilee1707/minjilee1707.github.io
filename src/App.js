@@ -1,11 +1,5 @@
 import React, { useState } from "react";
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Link,
-  NavLink,
-} from "react-router-dom";
+import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 function App() {
   const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -13,44 +7,18 @@ function App() {
   return (
     <Router>
       <nav style={styles.nav}>
-        <Link to="/" style={styles.logo}>
-          MySite
-        </Link>
-
+        <Link to="/" style={styles.logo}>MySite</Link>
         <div
           style={styles.dropdown}
           onMouseEnter={() => setDropdownOpen(true)}
           onMouseLeave={() => setDropdownOpen(false)}
         >
-          <button style={styles.dropbtn}>
-            Menu ▼
-          </button>
+          <button style={styles.dropbtn}>Menu ▼</button>
           {dropdownOpen && (
             <div style={styles.dropdownContent}>
-              <NavLink
-                to="/about"
-                style={({ isActive }) =>
-                  isActive ? styles.activeLink : styles.link
-                }
-              >
-                About
-              </NavLink>
-              <NavLink
-                to="/page1"
-                style={({ isActive }) =>
-                  isActive ? styles.activeLink : styles.link
-                }
-              >
-                Page 1
-              </NavLink>
-              <NavLink
-                to="/page2"
-                style={({ isActive }) =>
-                  isActive ? styles.activeLink : styles.link
-                }
-              >
-                Page 2
-              </NavLink>
+              <Link to="/about" style={styles.link}>About</Link>
+              <Link to="/page1" style={styles.link}>Page 1</Link>
+              <Link to="/page2" style={styles.link}>Page 2</Link>
             </div>
           )}
         </div>
@@ -62,37 +30,18 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/page1" element={<Page1 />} />
           <Route path="/page2" element={<Page2 />} />
-          <Route path="*" element={<NoMatch />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
     </Router>
   );
 }
 
-function Home() {
-  return <h2>Welcome to the Homepage!</h2>;
-}
-
-function About() {
-  return (
-    <>
-      <h2>About Us</h2>
-      <p>This is the about page with some info about the website.</p>
-    </>
-  );
-}
-
-function Page1() {
-  return <h2>This is Page 1</h2>;
-}
-
-function Page2() {
-  return <h2>This is Page 2</h2>;
-}
-
-function NoMatch() {
-  return <h2>404 Page Not Found</h2>;
-}
+const Home = () => <h2>Home Page</h2>;
+const About = () => <h2>About Page</h2>;
+const Page1 = () => <h2>Page 1</h2>;
+const Page2 = () => <h2>Page 2</h2>;
+const NotFound = () => <h2>404 - Page not found</h2>;
 
 const styles = {
   nav: {
@@ -132,14 +81,6 @@ const styles = {
     padding: "12px 16px",
     textDecoration: "none",
     display: "block",
-  },
-  activeLink: {
-    backgroundColor: "#ddd",
-    color: "black",
-    padding: "12px 16px",
-    textDecoration: "none",
-    display: "block",
-    fontWeight: "bold",
   },
 };
 
