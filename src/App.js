@@ -1,5 +1,11 @@
 import React, { useState } from "react";
 import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { Home } from "./pages/home";
+import { About } from "./pages/about";
+import { Training } from "./pages/training";
+import { Donate } from "./pages/donate";
+import { NotFound } from "./pages/notFound";
+import { ContactUs } from "./pages/contactus";
 
 function App() {
   const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -7,7 +13,7 @@ function App() {
   return (
     <Router>
       <nav style={styles.nav}>
-        <Link to="/" style={styles.logo}>MySite</Link>
+        <Link to="/" style={styles.logo}>Jesus Training</Link>
         <div
           style={styles.dropdown}
           onMouseEnter={() => setDropdownOpen(true)}
@@ -17,8 +23,9 @@ function App() {
           {dropdownOpen && (
             <div style={styles.dropdownContent}>
               <Link to="/about" style={styles.link}>About</Link>
-              <Link to="/page1" style={styles.link}>Page 1</Link>
-              <Link to="/page2" style={styles.link}>Page 2</Link>
+              <Link to="/training" style={styles.link}>Training</Link>
+              <Link to="/donate" style={styles.link}>Donate</Link>
+              <Link to="/contactus" style={styles.link}>Contact Us</Link>
             </div>
           )}
         </div>
@@ -28,20 +35,15 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/page1" element={<Page1 />} />
-          <Route path="/page2" element={<Page2 />} />
+          <Route path="/training" element={<Training />} />
+          <Route path="/donate" element={<Donate />} />
+          <Route path="/contactus" element={<ContactUs />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
     </Router>
   );
 }
-
-const Home = () => <h2>Home Page</h2>;
-const About = () => <h2>About Page</h2>;
-const Page1 = () => <h2>Page 1</h2>;
-const Page2 = () => <h2>Page 2</h2>;
-const NotFound = () => <h2>404 - Page not found</h2>;
 
 const styles = {
   nav: {
@@ -85,30 +87,3 @@ const styles = {
 };
 
 export default App;
-
-
-// import logo from './logo.svg';
-// import './App.css';
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
-
-// export default App;

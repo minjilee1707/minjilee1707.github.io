@@ -1,0 +1,1 @@
+export const Donate = () => <h2>Donate</h2>;

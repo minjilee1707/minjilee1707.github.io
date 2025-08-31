@@ -1,0 +1,1 @@
+export const Training = () => <h2>Training</h2>;

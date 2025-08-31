@@ -1,0 +1,1 @@
+export const ContactUs = () => <h2>Contact Us</h2>;
