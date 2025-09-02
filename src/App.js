@@ -1,37 +1,35 @@
-import React, { useState } from "react";
-import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { AppBar, Toolbar, Typography, Button, Box, Container } from '@mui/material';
+import { ThemeProvider, CssBaseline } from '@mui/material';
+
 import { Home } from "./pages/home";
 import { About } from "./pages/about";
 import { Training } from "./pages/training";
 import { Donate } from "./pages/donate";
 import { NotFound } from "./pages/notFound";
 import { ContactUs } from "./pages/contactus";
+import theme from './components/theme';
 
 function App() {
-  const [dropdownOpen, setDropdownOpen] = useState(false);
-
   return (
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
     <Router>
-      <nav style={styles.nav}>
-        <Link to="/" style={styles.logo}>Jesus Training</Link>
-        <div
-          style={styles.dropdown}
-          onMouseEnter={() => setDropdownOpen(true)}
-          onMouseLeave={() => setDropdownOpen(false)}
-        >
-          <button style={styles.dropbtn}>Menu ▼</button>
-          {dropdownOpen && (
-            <div style={styles.dropdownContent}>
-              <Link to="/about" style={styles.link}>About</Link>
-              <Link to="/training" style={styles.link}>Training</Link>
-              <Link to="/donate" style={styles.link}>Donate</Link>
-              <Link to="/contactus" style={styles.link}>Contact Us</Link>
-            </div>
-          )}
-        </div>
-      </nav>
+      <AppBar position="static" color="transparent" elevation={0} sx={{ borderBottom: '1px solid #e0e0e0' }}>
+        <Toolbar sx={{ justifyContent: 'space-between' }}>
+          <Typography variant="h6" component={Link} to="/" sx={{ textDecoration: 'none', color: 'inherit' }}>
+            Jesus Training
+          </Typography>
+          <Box>
+            <Button color="inherit" component={Link} to="/about">About</Button>
+            <Button color="inherit" component={Link} to="/training">Training</Button>
+            <Button color="inherit" component={Link} to="/donate">Donate</Button>
+            <Button color="inherit" component={Link} to="/contactus">Contact Us</Button>
+          </Box>
+        </Toolbar>
+      </AppBar>
 
-      <div style={{ padding: 20 }}>
+      <Container sx={{ mt: 5 }}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -40,50 +38,10 @@ function App() {
           <Route path="/contactus" element={<ContactUs />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-      </div>
+      </Container>
     </Router>
+    </ThemeProvider>
   );
 }
-
-const styles = {
-  nav: {
-    display: "flex",
-    backgroundColor: "#333",
-    padding: "10px 20px",
-    alignItems: "center",
-  },
-  logo: {
-    color: "white",
-    textDecoration: "none",
-    fontWeight: "bold",
-    fontSize: "20px",
-    marginRight: "auto",
-  },
-  dropdown: {
-    position: "relative",
-    display: "inline-block",
-  },
-  dropbtn: {
-    backgroundColor: "#333",
-    color: "white",
-    padding: "10px",
-    fontSize: "16px",
-    border: "none",
-    cursor: "pointer",
-  },
-  dropdownContent: {
-    position: "absolute",
-    backgroundColor: "#f9f9f9",
-    minWidth: "160px",
-    boxShadow: "0px 8px 16px 0px rgba(0,0,0,0.2)",
-    zIndex: 1,
-  },
-  link: {
-    color: "black",
-    padding: "12px 16px",
-    textDecoration: "none",
-    display: "block",
-  },
-};
 
 export default App;
