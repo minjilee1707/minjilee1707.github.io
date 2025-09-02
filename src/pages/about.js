@@ -11,6 +11,8 @@ import {
   Container,
   Grid,
   Divider,
+  Paper,
+  Box,
 } from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
@@ -47,16 +49,13 @@ const aboutContent = [
 ];
 
 export function About() {
-    // Create refs for each accordion summary
   const sectionRefs = useRef([]);
 
-  // Initialize refs array length if necessary
   if (sectionRefs.current.length !== aboutContent.length) {
     sectionRefs.current = Array(aboutContent.length)
       .fill()
       .map((_, i) => sectionRefs.current[i] || React.createRef());
   }
-     // Scroll handler
   const scrollToSection = (index) => {
     sectionRefs.current[index].current?.scrollIntoView({
       behavior: 'smooth',
@@ -65,18 +64,27 @@ export function About() {
   };
 
   return (
-    <Container maxWidth="lg" sx={{ py: 6, height: '90vh' }}>
-      <Typography variant="h3" fontWeight="bold" gutterBottom>
+    <>
+    <Typography variant="h3" fontWeight="bold" gutterBottom>
         About Jesus Training
-      </Typography>
-
-<Grid container spacing={4} sx={{ mt: 4, height: 'calc(100vh - 200px)' }}>
-        <Grid item xs={8} sx={{ overflowY: 'auto', maxHeight: '80vh' }}>
+    </Typography>
+    <Box
+      sx={{
+        display: 'flex',
+        flexDirection: 'row',
+        alignItems: 'flex-start',
+        px: { xs: 2, sm: 4, md: 6 },
+        py: 6,
+        gap: 4,
+      }}
+    >
+      <Box sx={{ flex: 2 }}>
+        <Box key={aboutContent.id} id={aboutContent.id} sx={{ mb: 6 }}>
           {aboutContent.map((item, index) => (
             <Accordion key={index} defaultExpanded={index === 0}>
               <AccordionSummary
                 expandIcon={<ExpandMoreIcon />}
-                ref={sectionRefs.current[index]} // attach ref here
+                ref={sectionRefs.current[index]}
               >
                 <Typography fontWeight="bold">{item.title}</Typography>
               </AccordionSummary>
@@ -85,44 +93,43 @@ export function About() {
               </AccordionDetails>
             </Accordion>
           ))}
-        </Grid>
-        <Grid
-            item
-            xs={4}
+        </Box>
+      </Box>
+      <Box
             sx={{
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'flex-start',
-            borderLeft: '1px solid #ddd',
-            pl: 2,
-            overflowY: 'auto',
-            maxHeight: '80vh',
+            flex: 1,
+            minWidth: '200px',
+            position: 'sticky',
+            top: 100,
+            alignSelf: 'flex-start',
             }}
-        >
-          <Typography variant="h6" fontWeight="bold" mb={2}>
-            Contents
-          </Typography>
-          <Divider sx={{ width: '100%', mb: 2 }} />
-          <List dense sx={{ width: '100%' }}>
-            {aboutContent.map((item, index) => (
-              <ListItem key={index} disablePadding>
-                <ListItemButton
-                  onClick={() => scrollToSection(index)} // scroll on click
-                  sx={{
-                    borderRadius: 1,
-                    py: 1,
-                    px: 2,
-                    width: '100%',
-                  }}
-                >
-                  <ListItemText primary={item.title} />
-                </ListItemButton>
-              </ListItem>
-            ))}
-          </List>
-        </Grid>
-      </Grid>
-    </Container>
+      >
+          <Paper elevation={2} sx={{ p: 2 }}>
+            <Typography variant="h6" fontWeight="bold" gutterBottom>
+                Contents
+            </Typography>
+            <Divider sx={{ width: '100%', mb: 2 }} />
+            <List dense>
+                {aboutContent.map((item, index) => (
+                <ListItem key={index} disablePadding>
+                    <ListItemButton
+                    onClick={() => scrollToSection(index)} // scroll on click
+                    sx={{
+                        borderRadius: 1,
+                        py: 1,
+                        px: 2,
+                        width: '100%',
+                    }}
+                    >
+                    <ListItemText primary={item.title} />
+                    </ListItemButton>
+                </ListItem>
+                ))}
+            </List>
+          </Paper>
+        </Box>
+    </Box>
+    </>
   );
 }
 

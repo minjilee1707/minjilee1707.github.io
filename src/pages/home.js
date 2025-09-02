@@ -52,28 +52,28 @@ const itemData = [
                 width: '100%',
                 textAlign: 'center',
             }}
-            >
+        >
             <Typography
-            variant="h2"
-            sx={{
-                fontWeight: 'bold',
-                color: '#4A403A', // soft brown
-                mb: 2,
-                letterSpacing: 1,
-            }}
+                variant="h2"
+                sx={{
+                    fontWeight: 'bold',
+                    color: '#4A403A', // soft brown
+                    mb: 2,
+                    letterSpacing: 1,
+                }}
             >
-            Welcome to Jesus Training
+                Welcome to Jesus Training
             </Typography>
             <Typography
-            variant="h6"
-            sx={{
-                color: '#7D7463',
-                maxWidth: '80%',
-                mx: 'auto',
-                fontWeight: 400,
-            }}
+                variant="h6"
+                sx={{
+                    color: '#7D7463',
+                    maxWidth: '80%',
+                    mx: 'auto',
+                    fontWeight: 400,
+                }}
             >
-            For covering All Nations with the Glory of God
+                For covering All Nations with the Glory of God
             </Typography>
             <Box display="flex" justifyContent="center">
                 <ImageList sx={{ width: 500 }} cols={3} rowHeight={164}>
