@@ -10,6 +10,8 @@ import { NotFound } from "./pages/notFound";
 import { ContactUs } from "./pages/contactus";
 import theme from './components/theme';
 
+import crossImage from './images/cross.png';
+
 function App() {
   return (
     <ThemeProvider theme={theme}>
@@ -17,9 +19,23 @@ function App() {
     <Router>
       <AppBar position="static" color="transparent" elevation={0} sx={{ borderBottom: '1px solid #e0e0e0' }}>
         <Toolbar sx={{ justifyContent: 'space-between' }}>
-          <Typography variant="h6" component={Link} to="/" sx={{ textDecoration: 'none', color: 'inherit' }}>
+          <Box display="flex" alignItems="center" component={Link} to="/" sx={{ textDecoration: 'none', color: 'inherit' }}>
+      <Box
+        component="img"
+        src={crossImage}
+        sx={{
+          height: 28,
+          width: 'auto',
+          mr: 1,
+        }}
+      />
+      <Typography variant="h6">
+        Jesus Training
+      </Typography>
+    </Box>
+          {/* <Typography variant="h6" component={Link} to="/" sx={{ textDecoration: 'none', color: 'inherit' }}>
             Jesus Training
-          </Typography>
+          </Typography> */}
           <Box>
             <Button color="inherit" component={Link} to="/about">About</Button>
             <Button color="inherit" component={Link} to="/training">Training</Button>

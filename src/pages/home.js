@@ -1,16 +1,16 @@
-import { Box, Typography, Paper } from '@mui/material';
+import { Box, Typography, Paper, Container, Grid } from '@mui/material';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 
-import image1 from '../images/KakaoTalk_Photo_2025-09-02-08-28-51.jpeg';
-import image2 from '../images/KakaoTalk_Photo_2025-09-02-08-29-07.jpeg';
-import image3 from '../images/KakaoTalk_Photo_2025-09-02-08-29-19.jpeg';
-import image4 from '../images/KakaoTalk_Photo_2025-09-02-08-29-41.jpeg';
-import image5 from '../images/KakaoTalk_Photo_2025-09-02-08-29-58.jpeg';
-import image6 from '../images/KakaoTalk_Photo_2025-09-02-08-30-19.jpeg';
-import image7 from '../images/KakaoTalk_Photo_2025-09-02-08-31-01.jpeg';
-import image8 from '../images/KakaoTalk_Photo_2025-09-02-08-31-21.jpeg';
-import image9 from '../images/KakaoTalk_Photo_2025-09-02-08-31-59.jpeg';
+import image1 from '../images/home_image1.jpeg';
+import image2 from '../images/home_image2.jpeg';
+import image3 from '../images/home_image3.jpeg';
+import image4 from '../images/home_image4.jpeg';
+import image5 from '../images/home_image5.jpeg';
+import image6 from '../images/home_image6.jpeg';
+import image7 from '../images/home_image7.jpeg';
+import image8 from '../images/home_image8.jpeg';
+import image9 from '../images/home_image9.jpeg';
 
 export function Home() {
 
@@ -95,6 +95,18 @@ const itemData = [
                 </ImageList>
             </Box>
         </Paper>
+        <Box sx={{ backgroundColor: '#f0ece3', py: 4, mt: 6 }}>
+        <Container>
+            <Grid container spacing={4}>
+            <Grid item xs={12} sm={4}>
+                <Typography variant="h6">Contact</Typography>
+                <Typography variant="body2">Email: info@jesustraining.org</Typography>
+                <Typography variant="body2">Phone: +1 (123) 456-7890</Typography>
+            </Grid>
+            {/* More footer sections like About, Quick Links */}
+            </Grid>
+        </Container>
+        </Box>
     </Box>
 );
 }
