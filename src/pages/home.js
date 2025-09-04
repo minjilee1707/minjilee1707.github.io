@@ -35,24 +35,15 @@ const itemData = [
         minHeight="80vh"
         textAlign="center"
         sx={{
-            background: 'linear-gradient(to right, #f5f2eb, #e7dfd5)',
+            background: 'linear-gradient(135deg, #f5f2eb 0%, #dfd8c8 100%)',
             color: '#5c504b', // soft brown for readable contrast
             py: 8,
             textAlign: 'center',
+            borderTop: '1px solid #ddd',
+    boxShadow: '0 -4px 20px rgba(0,0,0,0.05)',
+    py: 6,
         }}
     >
-        <Paper
-            elevation={3}
-            sx={{
-                p: 5,
-                backgroundColor: 'rgba(255, 255, 255, 0.9)',
-                borderRadius: 4,
-                boxShadow: '0px 10px 30px rgba(0,0,0,0.1)',
-                maxWidth: 800,
-                width: '100%',
-                textAlign: 'center',
-            }}
-        >
             <Typography
                 variant="h2"
                 sx={{
@@ -76,7 +67,7 @@ const itemData = [
                 For covering All Nations with the Glory of God
             </Typography>
             <Box display="flex" justifyContent="center">
-                <ImageList sx={{ width: 500 }} cols={3} rowHeight={164}>
+                <ImageList sx={{ width: 700 }} cols={3} rowHeight={200}>
                     {itemData.map((item) => (
                     <ImageListItem key={item.img}>
                         <img
@@ -86,7 +77,7 @@ const itemData = [
                             style={{
                             width: '100%',
                             height: '100%',
-                            objectFit: 'cover', // This ensures square crop
+                            objectFit: 'cover',
                             borderRadius: 8,
                             }}
                         />
@@ -94,19 +85,28 @@ const itemData = [
                     ))}
                 </ImageList>
             </Box>
-        </Paper>
-        <Box sx={{ backgroundColor: '#f0ece3', py: 4, mt: 6 }}>
-        <Container>
-            <Grid container spacing={4}>
-            <Grid item xs={12} sm={4}>
-                <Typography variant="h6">Contact</Typography>
-                <Typography variant="body2">Email: info@jesustraining.org</Typography>
-                <Typography variant="body2">Phone: +1 (123) 456-7890</Typography>
-            </Grid>
-            {/* More footer sections like About, Quick Links */}
-            </Grid>
-        </Container>
+        <Box
+            component="footer"
+            sx={{
+                backgroundColor: '#f0ece3',
+                py: 4,
+                mt: 6,
+                width: '100%',
+            }}
+        >
+            <Container maxWidth="lg">
+                <Grid container justifyContent="center">
+                <Grid item xs={12} sm={6} md={4} textAlign="center">
+                    <Typography variant="h6" gutterBottom>
+                    Contact
+                    </Typography>
+                    <Typography variant="body2">Email: info@jesustraining.org</Typography>
+                    <Typography variant="body2">Phone: +1 (123) 456-7890</Typography>
+                </Grid>
+                </Grid>
+            </Container>
         </Box>
+
     </Box>
 );
 }

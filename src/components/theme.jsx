@@ -19,7 +19,7 @@ const theme = createTheme({
     },
   },
   typography: {
-    fontFamily: `'Open Sans', 'Arial', sans-serif`,
+    fontFamily: `'Merriweather', 'Open Sans', serif`,
     h1: { fontWeight: 600, color: '#4A403A' },
     h2: { fontWeight: 600, color: '#4A403A' },
     h3: { fontWeight: 600, color: '#4A403A' },
