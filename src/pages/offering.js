@@ -1,13 +1,13 @@
 import { Typography } from "@mui/material";
 
-export function Donate() {
+export function Offering() {
   
 
   return (
     <Typography variant="h3" fontWeight="bold" gutterBottom>
-        Donate
+        Offering for the Training program
     </Typography>
   );
 }
 
-export default Donate;
+export default Offering;

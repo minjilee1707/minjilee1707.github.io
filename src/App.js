@@ -5,7 +5,7 @@ import { ThemeProvider, CssBaseline } from '@mui/material';
 import { Home } from "./pages/home";
 import { About } from "./pages/about";
 import { Training } from "./pages/training";
-import { Donate } from "./pages/donate";
+import { Offering } from "./pages/offering";
 import { NotFound } from "./pages/notFound";
 import { ContactUs } from "./pages/contactus";
 import theme from './components/theme';
@@ -36,7 +36,7 @@ function App() {
           <Box>
             <Button color="inherit" component={Link} to="/about">About</Button>
             <Button color="inherit" component={Link} to="/training">Training</Button>
-            <Button color="inherit" component={Link} to="/donate">Donate</Button>
+            <Button color="inherit" component={Link} to="/offering">Offering</Button>
             <Button color="inherit" component={Link} to="/contactus">Contact Us</Button>
           </Box>
         </Toolbar>
@@ -47,7 +47,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/training" element={<Training />} />
-          <Route path="/donate" element={<Donate />} />
+          <Route path="/offering" element={<Offering />} />
           <Route path="/contactus" element={<ContactUs />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
