@@ -65,7 +65,7 @@ export function Training() {
   return (
     <>
     <Typography variant="h3" fontWeight="bold" gutterBottom>
-        About Jesus Training
+        Training
     </Typography>
     <Box
       sx={{
