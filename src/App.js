@@ -7,7 +7,7 @@ import { About } from "./pages/about";
 import { Training } from "./pages/training";
 import { Offering } from "./pages/offering";
 import { NotFound } from "./pages/notFound";
-import { ContactUs } from "./pages/contactus";
+import { Apply } from "./pages/apply";
 import theme from './components/theme';
 
 import crossImage from './images/cross.png';
@@ -37,7 +37,7 @@ function App() {
             <Button color="inherit" component={Link} to="/about">About</Button>
             <Button color="inherit" component={Link} to="/training">Training</Button>
             <Button color="inherit" component={Link} to="/offering">Offering</Button>
-            <Button color="inherit" component={Link} to="/contactus">Contact Us</Button>
+            <Button color="inherit" component={Link} to="/apply">Apply</Button>
           </Box>
         </Toolbar>
       </AppBar>
@@ -48,7 +48,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/training" element={<Training />} />
           <Route path="/offering" element={<Offering />} />
-          <Route path="/contactus" element={<ContactUs />} />
+          <Route path="/apply" element={<Apply />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Container>

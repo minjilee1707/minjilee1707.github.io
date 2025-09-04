@@ -2,7 +2,7 @@ import { Box, Typography, Paper, Link, Container } from '@mui/material';
 import PhoneIcon from '@mui/icons-material/Phone';
 import EmailIcon from '@mui/icons-material/Email';
 
-export function ContactUs() {
+export function Apply() {
     return (
         <Container maxWidth="sm" sx={{ py: 6 }}>
             <Paper
@@ -20,12 +20,11 @@ export function ContactUs() {
                 gutterBottom
                 sx={{ color: '#3e3e3e' }}
             >
-                Contact Us
+                Apply for the training
             </Typography>
 
             <Typography variant="body1" sx={{ mb: 3, color: '#555' }}>
-                We'd love to hear from you. Whether you have a question about the program, want to sign up, or
-                just want to get in touch, feel free to reach out using the contact details below.
+                Please get in contact through the details below if you want to sign up to the training.
             </Typography>
 
             <Box display="flex" alignItems="center" mb={2}>
@@ -51,4 +50,4 @@ export function ContactUs() {
     );
 }
 
-export default ContactUs;
+export default Apply;
