@@ -1,4 +1,4 @@
-import { Box, Typography, Paper, Container, Grid } from '@mui/material';
+import { Box, Typography, Container, Grid } from '@mui/material';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 
@@ -40,8 +40,7 @@ const itemData = [
             py: 8,
             textAlign: 'center',
             borderTop: '1px solid #ddd',
-    boxShadow: '0 -4px 20px rgba(0,0,0,0.05)',
-    py: 6,
+            boxShadow: '0 -4px 20px rgba(0,0,0,0.05)',
         }}
     >
             <Typography
