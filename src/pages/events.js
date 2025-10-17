@@ -19,7 +19,7 @@ export function Events() {
 const events = [
   { title: 'Januray Jesus Training',
     start: '2026-01-05',
-    end: '2026-01-30',
+    end: '2026-01-31',
     color: '#8B4513',
     audience: 'Missionaries, pastors, people working for mission in churches or organisations.'
   }
