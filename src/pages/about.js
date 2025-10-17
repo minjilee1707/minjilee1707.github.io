@@ -51,11 +51,7 @@ const aboutContent = [
   },
   {
     title: 'Fruits',
-    details: `Jesus training started in India in 200x (?).
-    As of June 2025, Jesus training took place xxx times.
-    It produced xxx national (???) coordinators (international missionary), xxx yyy coordinators (….), .
-    We believe that fruits that we saw come from our unique training methodologies.
-    Look at the ‘Training Methodologies’ section.`,
+    details: ``,
   },
   {
     title: 'Training Methodologies',
