@@ -99,8 +99,8 @@ const itemData = [
                     <Typography variant="h6" gutterBottom>
                     Contact
                     </Typography>
-                    <Typography variant="body2">Email: info@jesustraining.org</Typography>
-                    <Typography variant="body2">Phone: +1 (123) 456-7890</Typography>
+                    <Typography variant="body2">Email: gapseoul@gmail.com</Typography>
+                    <Typography variant="body2">Phone: (+82) 010-3027-7716 </Typography>
                 </Grid>
                 </Grid>
             </Container>

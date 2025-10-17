@@ -30,7 +30,7 @@ export function Apply() {
             <Box display="flex" alignItems="center" mb={2}>
                 <PhoneIcon sx={{ mr: 1, color: '#7b6e65' }} />
                 <Typography variant="body1" sx={{ color: '#555' }}>
-                +1 (123) 456-7890
+                (+82) 010-3027-7716
                 </Typography>
             </Box>
 
@@ -42,7 +42,7 @@ export function Apply() {
                 variant="body1"
                 sx={{ color: '#555' }}
                 >
-                info@jesustraining.org
+                gapseoul@gmail.com
                 </Link>
             </Box>
             </Paper>
